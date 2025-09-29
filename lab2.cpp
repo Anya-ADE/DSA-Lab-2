@@ -160,7 +160,6 @@ bool insertUser(User*& head, const string& username, const string& password, con
     //Overall Function Run Time: O(n)
 }
 
-
 User* findUser(User* head, const string& username){
     User* current = head;
     while (current != nullptr) {
@@ -219,7 +218,6 @@ bool removeFront(User*& head){
     return true;
     //Overall Function Run Time: O(1)
 }
-
 
 bool removeByUsername(User*& head, const string& username){
     if (head == nullptr) {
